@@ -16,6 +16,17 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "models": [
+        "dist/models"
+      ],
+      "services": [
+        "dist/services"
+      ],
+      "tools": [
+        "dist/tools"
+      ]
+    },
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
